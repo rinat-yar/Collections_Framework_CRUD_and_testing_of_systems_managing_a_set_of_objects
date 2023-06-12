@@ -1,4 +1,5 @@
 package ru.netology;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,9 +10,11 @@ public class Game {
     public Game() {
         players = new ArrayList<>();
     }
-        public void register(Player player) {
+
+    public void register(Player player) {
         players.add(player);
     }
+
     public int round(String playerName1, String playerName2) {
         Player player1 = null;
         Player player2 = null;
